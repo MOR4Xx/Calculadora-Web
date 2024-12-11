@@ -102,16 +102,16 @@ function converterParaPosfixa(expressaoInfixa) {
 
 function avaliarPosfixa(expressaoPosfixa) {
   let pilhaDeNumeros = new PilhaDeNumeros();
-  let tokens = expressaoPosfixa.split(' ');
+  let postfix = expressaoPosfixa.split(' ');
 
-  for (let token of tokens) {
-    if (!isNaN(token)) {
-      pilhaDeNumeros.empilhar(Number(token));
+  for (let caracterAtual of postfix) {
+    if (!isNaN(caracterAtual)) {
+      pilhaDeNumeros.empilhar(Number(caracterAtual));
     } else {
       let valor2 = pilhaDeNumeros.desempilhar();
       let valor1 = pilhaDeNumeros.desempilhar();
 
-      switch (token) {
+      switch (caracterAtual) {
         case '+':
           pilhaDeNumeros.empilhar(valor1 + valor2);
           break;
