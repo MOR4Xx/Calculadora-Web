@@ -63,13 +63,10 @@ body {
   background-color: #d68e00;
 }
 
-.zero{
+.zero, .clear{
   grid-column: span 2;
 }
 
-.clear{
-  grid-column: span 2;
-}
 
 .button:active{
   transform: scale(0.90);
