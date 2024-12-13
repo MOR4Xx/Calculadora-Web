@@ -63,7 +63,7 @@ body {
   background-color: #d68e00;
 }
 
-.zero, .clear{
+.zero{
   grid-column: span 2;
 }
 
