@@ -67,6 +67,10 @@ body {
   grid-column: span 2;
 }
 
+.clear{
+  grid-column: span 2;
+}
+
 .button:active{
   transform: scale(0.90);
 }
