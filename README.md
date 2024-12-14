@@ -6,20 +6,18 @@ Esta calculadora permite realizar cálculos matemáticos básicos diretamente no
 - **Operadores básicos**: Adição (+), subtração (-), multiplicação (x) e divisão (÷).
 - **Números decimais**: Aceita números com vírgula (`,`) para decimais.
 - **Parênteses**: Permite agrupamento de operações.
-- **Porcentagem**: Calcula valores percentuais automaticamente.
 
 ## Como Usar
 1. Abra o arquivo `index.html` em qualquer navegador.
 2. Insira a expressão desejada utilizando os botões:
    - Utilize `,` para números decimais.
-   - Clique em `%` para tratar valores percentuais.
    - Clique em `=` para calcular o resultado.
 3. O resultado será exibido no display da calculadora.
 
 ## Exemplo
 ### Entrada:
 ```
-100 + 50%
+100 + 50
 ```
 ### Saída:
 ```
